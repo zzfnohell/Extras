@@ -1,12 +1,12 @@
 {
-    "version": "3.2.6",
+    "version": "3.2.7",
     "description": "A custom client designed to enhance your Discord experience while keeping everything lightweight.",
     "homepage": "https://github.com/ArmCord/ArmCord",
     "license": "OSL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ArmCord/ArmCord/releases/download/v3.2.6/ArmCord.Setup.3.2.6.exe#/dl.7z",
-            "hash": "sha512:7af69f07e43083ff1aea8374492e210bd0bc603f32f5780a21cf8ff1f36fae1a437a68fbebc7ef32bf76e6235c1b665b20f76ec852cfbab9693cd2c0627449ae",
+            "url": "https://github.com/ArmCord/ArmCord/releases/download/v3.2.7/ArmCord.Setup.3.2.7.exe#/dl.7z",
+            "hash": "01486deaa1d2806a54474dccbbc9993efc8f6475dc12759c682b494345a9b942",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse"
