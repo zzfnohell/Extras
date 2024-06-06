@@ -1,5 +1,5 @@
 {
-    "version": "2023.4-2558838",
+    "version": "2024.2-2606884",
     "description": "Provides access to versioned files in Helix Core through a graphical interface.",
     "homepage": "https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdist2.perforce.com/perforce/r23.4/bin.ntx64/p4vinst64.msi",
-            "hash": "eac60b8368a574803a4a2cf8e2e63f3d0cee9aa1dc1f77e9fb6d160570a472d1"
+            "url": "https://cdist2.perforce.com/perforce/r24.2/bin.ntx64/p4vinst64.msi",
+            "hash": "f392cd59df7bfb54b430b9ca83bce5882ed983d8b9b8c024361d1f2c48e80122"
         }
     },
     "extract_dir": "Perforce",
