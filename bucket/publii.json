@@ -1,12 +1,12 @@
 {
-    "version": "0.46.2",
+    "version": "0.46.3",
     "description": "Static Site CMS with GUI to build a safe, fast and SEO-friendly website",
     "homepage": "https://getpublii.com",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://cdn.getpublii.com/Publii-0.46.2.exe#/dl.7z",
-            "hash": "0b4c6b5d2d0103406d97b29fcb538fbbbad3d5d21807f84912be425bfdb7b8e9",
+            "url": "https://cdn.getpublii.com/Publii-0.46.3.exe#/dl.7z",
+            "hash": "633cc115fb7cc02eb6eec4acd2ccf77de20a9519175051d655598210843de43f",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
