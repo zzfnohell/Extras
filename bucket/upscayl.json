@@ -1,12 +1,12 @@
 {
-    "version": "2.11.5",
+    "version": "2.15.1",
     "homepage": "https://github.com/upscayl/upscayl",
     "description": "A Free and Open Source AI Image Upscaler.",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/upscayl/upscayl/releases/download/v2.11.5/upscayl-2.11.5-win.exe#/dl.7z",
-            "hash": "sha512:94695a5e7b916cabdb22726987bbf6168d0ff116b5faa8ec6d6d07b4fa6748137573d209a1e53074bf6fe7e34f2645e48c3ffe5898be917b8c33cea9f0f60352"
+            "url": "https://github.com/upscayl/upscayl/releases/download/v2.15.1/upscayl-2.15.1-win.exe#/dl.7z",
+            "hash": "sha512:7ceff532b71546ede8536ba3aa3b653d3ce3d9e141989c9e6929b0bf9bbf323c484fabfdf79c6f68c4603e0ef16a1f8e5a1a3c93e77991bcdb47a2258d139967"
         }
     },
     "extract_dir": "$PLUGINSDIR",
