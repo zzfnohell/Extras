@@ -1,5 +1,5 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "(1MB Tiny) Freeware Image & Animation Viewer for Windows",
     "homepage": "https://www.nyam.pe.kr/dev/imagine/",
     "license": {
@@ -9,8 +9,8 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_2.0.0_x64_Unicode.zip",
-            "hash": "e394e337fe2735e19824ca0cb92a2104c78c05768589db9a71c11c069ea2eb52",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_2.0.1_x64_Unicode.zip",
+            "hash": "e753bf97ac1bc02b899e5c47aad948cec129fcb1b0753f8b3a9591d0fa3d23a8",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -26,8 +26,8 @@
             ]
         },
         "32bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_2.0.0_Unicode.zip",
-            "hash": "13f6c95c0ca83e325dff3981c068c5b65fe104ad4f973be47ab8773979ff0b1f",
+            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_2.0.1_Unicode.zip",
+            "hash": "eaad47d1e7460e98d8f8e90fbe73715f67609b42cae8ebf27060d28a75d904a5",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
