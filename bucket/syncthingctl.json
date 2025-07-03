@@ -1,5 +1,5 @@
 {
-    "version": "1.7.8",
+    "version": "1.7.9",
     "description": "Command line app to control Syncthing",
     "homepage": "https://github.com/Martchus/syncthingtray",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.8/syncthingctl-1.7.8-x86_64-w64-mingw32.exe.zip",
-            "hash": "4d9fb1225d30fed1bcee18962e294916b0552ccbe472e81010e8477d3b515be7"
+            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.9/syncthingctl-1.7.9-x86_64-w64-mingw32.exe.zip",
+            "hash": "1d22422619e2702f9183c7fc69e9d28c588bf2d987fa39afccf94873428de5d8"
         },
         "32bit": {
-            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.8/syncthingctl-qt5-1.7.8-i686-w64-mingw32.exe.zip",
-            "hash": "c17b3b586d03a99c84ff28cdfe9ec29e0392de404e29bc4af5d6a456e09b96d9"
+            "url": "https://github.com/Martchus/syncthingtray/releases/download/v1.7.9/syncthingctl-qt5-1.7.9-i686-w64-mingw32.exe.zip",
+            "hash": "115e45130be0627415a32dcdb3f165681d225fabd8acdfb039862daac5378058"
         }
     },
     "pre_install": "Move-Item \"$dir\\syncthingctl-*.exe\" \"$dir\\syncthingctl.exe\"",
