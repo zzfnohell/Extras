@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "#1 Locally hosted web application that allows you to perform various operations on PDF files",
     "homepage": "https://github.com/Stirling-Tools/Stirling-PDF/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.1.0/Stirling-PDF-win-installer.exe",
-            "hash": "7925cfbaa8e49b6c24f4ace116d7eabe74870761c492b7a78cd80200e7809ef6"
+            "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v1.1.1/Stirling-PDF-win-installer.exe",
+            "hash": "8824fc1acb66bbd1df7c66bfe44c68661d4db7e7007a541ab6e8ce2ffaf12ae9"
         }
     },
     "shortcuts": [
