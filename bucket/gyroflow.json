@@ -1,12 +1,12 @@
 {
-    "version": "1.6.2",
+    "version": "1.6.3",
     "description": "Gyro-assisted video stabilization software.",
     "homepage": "https://gyroflow.xyz/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gyroflow/gyroflow/releases/download/v1.6.2/Gyroflow-windows64.zip",
-            "hash": "738c6dab346f8e8a69fbe2c5355095c664956b699f99bf6ac792f73faba27170"
+            "url": "https://github.com/gyroflow/gyroflow/releases/download/v1.6.3/Gyroflow-windows64.zip",
+            "hash": "37ef4064adb6991ae2251e283e5888a02ea00024d0a6f1353501892bb5367e21"
         }
     },
     "shortcuts": [
