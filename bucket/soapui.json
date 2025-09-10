@@ -1,21 +1,21 @@
 {
-    "version": "5.9.0",
+    "version": "5.9.1",
     "description": "A functional testing solution for APIs and web services.",
     "homepage": "https://www.soapui.org/",
     "license": "EUPL-1.1",
     "architecture": {
         "64bit": {
             "url": [
-                "https://dl.eviware.com/soapuios/5.9.0/SoapUI-5.9.0-windows-bin.zip",
+                "https://dl.eviware.com/soapuios/5.9.1/SoapUI-5.9.1-windows-bin.zip",
                 "https://icon-icons.com/downloadimage.php?id=93772&root=1381/ICO/512/&file=soapui_93772.ico#/icon.ico"
             ],
             "hash": [
-                "1b33b9390484a0e71d29957996e22d3f19b2449b684bf5e544513c4a0aa9ccf1",
+                "f98e175853f3b263bba052507592bd4bc3ab1a93937bd07af492e7f84c7faff8",
                 "dc5f24885b3cb82e830781fc66127d8cb26b81857a58eb490d6c35ea3d92d351"
             ]
         }
     },
-    "extract_dir": "SoapUI-5.9.0",
+    "extract_dir": "SoapUI-5.9.1",
     "bin": "bin\\soapui.bat",
     "shortcuts": [
         [
