@@ -1,13 +1,13 @@
 {
-    "version": "3.6.9202",
+    "version": "3.6.9403",
     "description": "The ultimate music player to easily manage, find, and play music, podcasts, web radio stations, etc",
     "homepage": "https://getmusicbee.com",
     "license": {
         "identifier": "Freeware",
         "url": "https://musicbee.fandom.com/wiki/FAQ#Are_there_any_limitations_on_using_MusicBee.3F"
     },
-    "url": "https://files1.majorgeeks.com/c601058e48f35fd22890f6a312c95c31c29209cd/multimedia/MusicBeePortable_3_6.zip",
-    "hash": "aff35dc919b4a620847ca0c5269d1d75e93bf96bcabcbbdc0d058ce3e1d82c5d",
+    "url": "https://files1.majorgeeks.com/fd31da573512bdcb7cc19da581e36e05f30fa484/multimedia/MusicBeePortable_3_6_Update1.zip",
+    "hash": "010bd8be8dce8bcc06d101b176a5aef1e88b42c1df1959d182d359487e8b78e8",
     "pre_install": [
         "(Get-ChildItem \"$dir\" 'MusicBee*.exe').FullName | Expand-7zipArchive -DestinationPath \"$dir\" -Removal",
         "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Recurse",
