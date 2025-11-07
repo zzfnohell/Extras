@@ -1,12 +1,12 @@
 {
-    "version": "2.5.0",
+    "version": "2.5.2",
     "description": "Standalone client for managing official builds of Blender 3D",
     "homepage": "https://github.com/Victor-IX/Blender-Launcher",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Victor-IX/Blender-Launcher/releases/download/v2.5.0/Blender_Launcher_v2.5.0_Windows_x64.zip",
-            "hash": "e80f9949af27b4abd55d966897fcb2224df91add72d545075ea51ddd720bacb5"
+            "url": "https://github.com/Victor-IX/Blender-Launcher/releases/download/v2.5.2/Blender_Launcher_v2.5.2_Windows_x64.zip",
+            "hash": "dd1ef2a7d031234f0a4ce58522cee65c6a72916c1e85d646e43d84a502905832"
         }
     },
     "bin": [
