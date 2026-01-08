@@ -1,10 +1,10 @@
 {
-    "version": "8.34-5870",
+    "version": "8.40-5900",
     "description": "Comprehensive Hardware Analysis, Monitoring and Reporting for Windows and DOS",
     "homepage": "https://www.hwinfo.com",
     "license": "Freeware",
-    "url": "https://www.sac.sk/download/utildiag/hwi_834.zip",
-    "hash": "2971ff9c0284d100f5218faa915504dbe53a88ef2f0e5432adcc7025d6a38b3b",
+    "url": "https://www.sac.sk/download/utildiag/hwi_840.zip",
+    "hash": "c06212d303dfe49f454620321e0ae54eea2557b78a2515aa940a51d67365863c",
     "pre_install": [
         "foreach ($conf in 'HWiNFO64.INI', 'HWiNFO32.INI') {",
         "    if (!(Test-Path \"$persist_dir\\$conf\")) { Set-Content \"$dir\\$conf\" '[Settings]', 'AutoUpdate=0' -Encoding ASCII }",
