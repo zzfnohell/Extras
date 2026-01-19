@@ -1,13 +1,13 @@
 {
-    "version": "25.04-5109",
+    "version": "25.12-5778",
     "description": "Communications and data transfer between devices over local networks",
     "homepage": "https://kdeconnect.kde.org/",
     "license": "GPL-3.0-or-later",
     "notes": "If you want to get the latest development branch-based installer, please install `kdeconnect-nightly` from Versions bucket.",
     "architecture": {
         "64bit": {
-            "url": "https://download.kde.org/stable/release-service/25.04.2/windows/kdeconnect-kde-release_25.04-5109-windows-cl-msvc2022-x86_64.exe#/dl.7z",
-            "hash": "046597f22fabdef3ee0a3f5d1a85fbbdf9c5763875902994f51799e6f7844df1"
+            "url": "https://download.kde.org/stable/release-service/25.12.1/windows/kdeconnect-kde-release_25.12-5778-windows-cl-msvc2022-x86_64.exe#/dl.7z",
+            "hash": "164d3f93cda5275c07528866d019bab754909b3056aef10882343480211c7f7b"
         }
     },
     "pre_install": [
