@@ -1,10 +1,10 @@
 {
-    "version": "2.68.0",
+    "version": "2.69.0",
     "description": "Lightweight system utility designed to provide vital information about your video card and graphics processor.",
     "homepage": "https://www.techpowerup.com/gpuz/",
     "license": "Freeware",
-    "url": "http://us2-dl.techpowerup.com/files/GPU-Z.2.68.0.exe#/GPU-Z.exe",
-    "hash": "md5:9fd2678554e95db45a3dcb1c0c7c8fd7",
+    "url": "http://us2-dl.techpowerup.com/files/GPU-Z.2.69.0.exe#/GPU-Z.exe",
+    "hash": "md5:19a5f2bbb19710d2d36153b6cb12c3a7",
     "bin": "GPU-Z.exe",
     "shortcuts": [
         [
