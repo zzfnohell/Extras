@@ -1,16 +1,16 @@
 {
-    "version": "4.14.2",
+    "version": "6.5.1",
     "description": "A messaging app with a focus on speed and security",
     "homepage": "https://telegram.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.14.2/tportable-x64.4.14.2.zip",
-            "hash": "acc49425ab3893d17c6613eb349fca723d96e34dded8ce386d58a9898034da5a"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.5.1/tportable-x64.6.5.1.zip",
+            "hash": "9c0bec98139ae8b5d46f180b21b9f8b415a7878170f2086ca8ee828b603429f2"
         },
         "32bit": {
-            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v4.14.2/tportable.4.14.2.zip",
-            "hash": "9270d4ff99680d8dcb1d0386aa9dd508d91ad0eb60fb6438b11566bddd0f5395"
+            "url": "https://github.com/telegramdesktop/tdesktop/releases/download/v6.5.1/tportable.6.5.1.zip",
+            "hash": "4657d407529c3a53f7b165485333862f5cf5882c84990dd5ee897e67cf838844"
         }
     },
     "extract_dir": "Telegram",

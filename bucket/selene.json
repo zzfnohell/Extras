@@ -1,12 +1,12 @@
 {
-    "version": "0.26.1",
+    "version": "0.30.0",
     "description": "A blazing-fast modern Lua linter written in Rust",
     "homepage": "https://kampfkarren.github.io/selene/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kampfkarren/selene/releases/download/0.26.1/selene-0.26.1-windows.zip",
-            "hash": "e24afa5e4482572bc32eecd1dff492444b81fc648442f060acb4b494c9bbbdbf"
+            "url": "https://github.com/Kampfkarren/selene/releases/download/0.30.0/selene-0.30.0-windows.zip",
+            "hash": "23f0d2c4d912e50957b9c569fe6dea73378849ac765499f03f0ca3ac6573a73c"
         }
     },
     "bin": "selene.exe",

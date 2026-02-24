@@ -1,0 +1,33 @@
+{
+    "version": "42.5",
+    "description": "An image viewer that allows you to view images of folders and compressed files as if you read books.",
+    "homepage": "https://bitbucket.org/neelabo/neeview/wiki/Home",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView42.5.zip",
+            "hash": "5c29f64f648e6809f9f883553b7a7f9b9f2874ede0337e2c03458fdafc774c8f",
+            "extract_dir": "NeeView42.5"
+        }
+    },
+    "bin": "NeeView.exe",
+    "shortcuts": [
+        [
+            "NeeView.exe",
+            "NeeView"
+        ]
+    ],
+    "persist": "Profile",
+    "checkver": {
+        "url": "https://api.bitbucket.org/2.0/repositories/neelabo/neeview/refs/tags?sort=-target.date",
+        "jsonpath": "$.values[0].name"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://bitbucket.org/neelabo/neeview/downloads/NeeView$version.zip",
+                "extract_dir": "NeeView$version"
+            }
+        }
+    }
+}

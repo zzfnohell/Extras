@@ -1,17 +1,24 @@
 {
-    "version": "1.5.1",
+    "version": "1.8.5",
     "description": "A Qt/C++ GUI front end to sshfs, ecryptfs-simple, cryfs, gocryptfs, securefs, fscrypt and encfs",
     "homepage": "https://mhogomchungu.github.io/sirikali/",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/mhogomchungu/sirikali/releases/download/1.5.1/SiriKali-1.5.1.exe.zip",
-    "hash": "4fc5e64c85819c934e8e95b79b1a6554de11464d6beeb436b4908c777912442a",
-    "extract_dir": "SiriKali-1.5.1.exe",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mhogomchungu/sirikali/releases/download/1.8.5/SiriKaliQt6-1.8.5.zip",
+            "hash": "18682c37204ef8e77006093019112ce84bb82b270775b57ddb6d3ac9cef2ef47",
+            "extract_dir": "SiriKaliQt6-1.8.5"
+        },
+        "32bit": {
+            "url": "https://github.com/mhogomchungu/sirikali/releases/download/1.8.5/SiriKaliQt5-1.8.5.zip",
+            "hash": "67a300864d8fb44040e71c323a92983a7b7810c34a79bb0166f8bc9f51aca209",
+            "extract_dir": "SiriKaliQt5-1.8.5"
+        }
+    },
     "shortcuts": [
         [
             "sirikali.exe",
-            "SiriKali",
-            "",
-            "icons\\sirikali.ico"
+            "SiriKali"
         ]
     ],
     "persist": [
@@ -22,7 +29,15 @@
         "github": "https://github.com/mhogomchungu/sirikali"
     },
     "autoupdate": {
-        "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKali-$version.exe.zip",
-        "extract_dir": "SiriKali-$version.exe"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt6-$version.zip",
+                "extract_dir": "SiriKaliQt6-$version"
+            },
+            "32bit": {
+                "url": "https://github.com/mhogomchungu/sirikali/releases/download/$version/SiriKaliQt5-$version.zip",
+                "extract_dir": "SiriKaliQt5-$version"
+            }
+        }
     }
 }

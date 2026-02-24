@@ -1,5 +1,5 @@
 {
-    "version": "6.4",
+    "version": "6.38",
     "description": "All-in-one utility for cleaning your PC",
     "homepage": "https://www.glarysoft.com/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.glarysoft.com/inf/termsofuse/"
     },
     "url": "https://download.glarysoft.com/guportable.zip",
-    "hash": "922a332919dac053b8a8b1f0bb6a52d7429c8b50a34ebf02b9ec9d5e1dab3c8b",
+    "hash": "f845318acf63a0711bf343347971021151f17f772a7918a0775f15d7873a69a0",
     "shortcuts": [
         [
             "Integrator_Portable.exe",

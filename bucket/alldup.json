@@ -1,10 +1,10 @@
 {
-    "version": "4.5.58",
+    "version": "4.5.72",
     "description": "Duplicate file remover",
     "homepage": "https://www.alldup.info",
     "license": "Freeware",
     "url": "https://www.alldup.info/download/AllDupPortable.zip",
-    "hash": "sha1:353ed39d257fe4f006d69b490b38e796743798a0",
+    "hash": "sha1:0745d85da12e7374971178f67aacff1caf1f15b9",
     "pre_install": "if (!(Test-Path \"$persist_dir\\config4.ini\")) { New-Item \"$dir\\config4.ini\" | Out-Null }",
     "bin": [
         [

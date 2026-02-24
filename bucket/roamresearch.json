@@ -1,5 +1,5 @@
 {
-    "version": "0.0.18",
+    "version": "0.0.34",
     "homepage": "https://roamresearch.com/",
     "description": "An easy to use note-taking tool for for networked thought.",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://roam-electron-deploy.s3.us-east-2.amazonaws.com/Roam+Research+Setup+0.0.18.exe#/dl.7z",
-            "hash": "sha512:cba1cfdade8e5e5b7021c1359f1ae7d9d4e1835b3599504205508b71f4bf1fe1113bb24193562737117f533b75d13e88c86657937449b425cd2aa2e71fcdfb26",
+            "url": "https://roam-electron-deploy.s3.us-east-2.amazonaws.com/Roam+Research+Setup+0.0.34.exe#/dl.7z",
+            "hash": "sha512:5ccc15511ad6c24d9a091716ff1c32e37ba4db7c93a8a8be485fb68b17605cdaebb93f77751c9bd3c0bd8baf6f7b6623f4a0f3fb7ebcbb2d53363344bfe7ad50",
             "pre_install": "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
         }
     },

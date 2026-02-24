@@ -1,0 +1,26 @@
+{
+    "version": "0.20.1",
+    "description": "A lightweight cross-platform desktop client for Subsonic and Jellyfin music servers.",
+    "homepage": "https://github.com/dweymouth/supersonic",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/dweymouth/supersonic/releases/download/v0.20.1/Supersonic-0.20.1-windows-x64.zip",
+            "hash": "218867a01aaf3cb0b7f65f354e9a446d54c4bda071b63e6ec10ae723442f2f9a"
+        }
+    },
+    "shortcuts": [
+        [
+            "supersonic.exe",
+            "Supersonic"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/dweymouth/supersonic/releases/download/v$version/Supersonic-$version-windows-x64.zip"
+            }
+        }
+    }
+}

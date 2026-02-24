@@ -1,13 +1,13 @@
 {
-    "version": "2.0",
+    "version": "2.1",
     "description": "Official Geany plugins, as well as 3rd party ones.",
     "homepage": "https://plugins.geany.org/",
     "license": {
         "identifier": "GPL-2.0-or-later|GPL-3.0-or-later",
         "url": "https://plugins.geany.org/licensing.html"
     },
-    "url": "https://plugins.geany.org/geany-plugins/geany-plugins-2.0_setup.exe#/dl.7z",
-    "hash": "14f6e264fccb05126143ebac7fafd89ae360faf5d8df82250c7804e52c9c2637",
+    "url": "https://plugins.geany.org/geany-plugins/geany-plugins-2.1_setup.exe#/dl.7z",
+    "hash": "c0e32c10667dc0318db195e7aff8d0bea9e35ae70ed69ff6dda53b2c9e28f471",
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninst*\" -Recurse",
     "installer": {
         "script": [

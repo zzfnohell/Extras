@@ -1,19 +1,20 @@
 {
-    "version": "7.2.0",
+    "version": "9.3.1",
     "description": "Powerful and easy to use e-book manager",
     "homepage": "https://calibre-ebook.com",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://download.calibre-ebook.com/7.2.0/calibre-portable-installer-7.2.0.exe",
-            "hash": "sha512:477afb199948a0a24c5fcd8df3629d7fbf1c531f8f971a61852ef367a0ea52a3938cbba2f5d1343cef82ea89c52e2f21219cffd494365ffdc12a5fcd04a808db"
+            "url": "https://download.calibre-ebook.com/9.3.1/calibre-portable-installer-9.3.1.exe",
+            "hash": "sha512:5dbbde97585865a08ec898be92400f0ea0ec56be91ec4e3d2bab181da94e585831035802d6c579ac772518451bc78275bf0626061b16580f68939ebf5be29cc6"
         }
     },
     "installer": {
         "script": [
-            "Start-Process \"$dir\\calibre-portable-installer-$version.exe\" @(\"$dir\") -Wait",
-            "Move-Item \"$dir\\Calibre Portable\\**\" \"$dir\"",
-            "Remove-Item \"$dir\\Calibre Portable\""
+            "Start-Process \"$dir\\calibre-portable-installer-$version.exe\" @(\"$env:TEMP\") -Wait",
+            "Move-Item \"$env:TEMP\\Calibre Portable\\**\" \"$dir\"",
+            "Remove-Item \"$env:TEMP\\Calibre Portable\"",
+            "Icacls $dir /t /c /reset"
         ]
     },
     "bin": [

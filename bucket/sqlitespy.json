@@ -1,17 +1,17 @@
 {
-    "version": "1.9.20",
+    "version": "1.9.33",
     "description": "A compact GUI database manager for SQLite",
     "homepage": "https://www.yunqa.de/delphi/apps/sqlitespy/index",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://www.yunqa.de/delphi/downloads/SQLiteSpy_v1.9.20.zip",
-            "hash": "c7685523da361484e9f74192b563abc6d2d10cc081006987746e75612f8cec42",
+            "url": "https://www.yunqa.de/delphi/downloads/SQLiteSpy_v1.9.33.zip",
+            "hash": "66f62bfadce9beeef1477c972f8d35ae53648b3e7180b77324857b948e244580",
             "extract_dir": "win64"
         },
         "32bit": {
-            "url": "https://www.yunqa.de/delphi/downloads/SQLiteSpy_v1.9.20.zip",
-            "hash": "c7685523da361484e9f74192b563abc6d2d10cc081006987746e75612f8cec42",
+            "url": "https://www.yunqa.de/delphi/downloads/SQLiteSpy_v1.9.33.zip",
+            "hash": "66f62bfadce9beeef1477c972f8d35ae53648b3e7180b77324857b948e244580",
             "extract_dir": "win32"
         }
     },

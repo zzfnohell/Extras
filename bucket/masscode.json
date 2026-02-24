@@ -1,12 +1,12 @@
 {
-    "version": "3.10.0",
+    "version": "4.0.1",
     "description": "A free and open source code snippets manager for developers",
     "homepage": "https://github.com/massCodeIO/massCode",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/massCodeIO/massCode/releases/download/v3.10.0/massCode.Setup.3.10.0.exe#/dl.7z",
-            "hash": "6d4baf4a56412acecd9fd6ee18d70d12bc315ef2156db0441296539e6f6af1fe",
+            "url": "https://github.com/massCodeIO/massCode/releases/download/v4.0.1/massCode.Setup.4.0.1.exe#/dl.7z",
+            "hash": "0c72086e09408b121657c2b6947f126675cb28ac57a1d00f9f747aeab50ce820",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\", \"$dir\\Uninstall*\" -Force -Recurse"

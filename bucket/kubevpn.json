@@ -1,0 +1,44 @@
+{
+    "version": "2.9.13",
+    "description": "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.",
+    "homepage": "https://www.kubevpn.cn/",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.9.13/kubevpn_v2.9.13_windows_amd64.zip",
+            "hash": "4664e334f9ea3b3f4eb9b55079bca7276e43b0807af71002f155b205d06240e0"
+        },
+        "32bit": {
+            "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.9.13/kubevpn_v2.9.13_windows_386.zip",
+            "hash": "0e1c5142c2439532fa0be79ec63a89e108f0eec31d44b78bc7af5c211b53e778"
+        },
+        "arm64": {
+            "url": "https://github.com/kubenetworks/kubevpn/releases/download/v2.9.13/kubevpn_v2.9.13_windows_arm64.zip",
+            "hash": "1081e029577b629513f8079caa07980ede8f10ec90ab1ba129c439e79e843938"
+        }
+    },
+    "extract_dir": "bin",
+    "bin": "kubevpn.exe",
+    "shortcuts": [
+        [
+            "kubevpn.exe",
+            "kubevpn"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/kubenetworks/kubevpn"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_arm64.zip"
+            }
+        }
+    }
+}

@@ -1,11 +1,11 @@
 {
-    "version": "1.0.96",
+    "version": "1.1.10",
     "description": "Bootable USB drive creator",
     "homepage": "https://www.ventoy.net/en/index.html",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/ventoy/Ventoy/releases/download/v1.0.96/ventoy-1.0.96-windows.zip",
-    "hash": "c37d333bc630076679172cf1934290c3c7c80340a9719369b96628edbdcb724b",
-    "extract_dir": "ventoy-1.0.96",
+    "url": "https://github.com/ventoy/Ventoy/releases/download/v1.1.10/ventoy-1.1.10-windows.zip",
+    "hash": "c65e6bff33a376bd3fd3243eb9cdd923c07f7d051c934c7b6ad72f7bf6c80049",
+    "extract_dir": "ventoy-1.1.10",
     "pre_install": [
         "'log.txt', 'Ventoy2Disk.ini' | ForEach-Object {",
         "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" -ItemType File | Out-Null }",
