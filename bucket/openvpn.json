@@ -1,6 +1,6 @@
 {
     "##": "Renaming .msi to .msi_ to avoid auto extraction",
-    "version": "2.7.0-I017",
+    "version": "2.7.1-I001",
     "description": "A flexible virtual private network (VPN) solution to secure data communications.",
     "homepage": "https://openvpn.net",
     "license": "GPL-2.0-only",
@@ -9,16 +9,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.0-I017-amd64.msi#/setup.msi_",
-            "hash": "60d1d1c08a1f6c7901380ae8653c29be2283186dfd90def09ae8f901ea562533"
+            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.1-I001-amd64.msi#/setup.msi_",
+            "hash": "821415899fda40063b2740fa239c557435965c5c9df5a6260cc6f684f02e65b8"
         },
         "32bit": {
-            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.0-I017-x86.msi#/setup.msi_",
-            "hash": "63bf1d47d926a936bcdebc28da456a1c136d460fd02cbf21af4ff4c1fe701866"
+            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.1-I001-x86.msi#/setup.msi_",
+            "hash": "589fa121a55c524aca51bf716ec4ce711dd4802c20a0f0ec5af267e34e667ecc"
         },
         "arm64": {
-            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.0-I017-arm64.msi#/setup.msi_",
-            "hash": "caee9728166832fa47c06ed35c3e4821b1066ad6fdbd1d2f9c4ff81c70ac7132"
+            "url": "https://swupdate.openvpn.org/community/releases/OpenVPN-2.7.1-I001-arm64.msi#/setup.msi_",
+            "hash": "039191156e49c964ed9250c0a191177a15ef963f2d5553bb94038ca711771ae7"
         }
     },
     "pre_install": [
