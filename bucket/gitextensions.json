@@ -1,12 +1,12 @@
 {
-    "version": "7.0.0.84",
+    "version": "7.0.1.86",
     "description": "A graphical user interface for Git that allows you to control Git without using the commandline.",
     "homepage": "https://gitextensions.github.io/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gitextensions/gitextensions/releases/download/v7.0.0/GitExtensions-Portable-x64-7.0.0.84-c766d61.zip",
-            "hash": "7adcc1082c8141e0535ba1026a6affb6637060598706ca20c5f6c9c7b7e04c8f"
+            "url": "https://github.com/gitextensions/gitextensions/releases/download/v7.0.1/GitExtensions-Portable-x64-7.0.1.86-c119a52.zip",
+            "hash": "7b8989ceb4192194742c7ab166226c02af4a846bfb6037c1d4d44b1a61d01b1a"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\GitExtensions.settings\")) { New-Item \"$dir\\GitExtensions.settings\" | Out-Null }",
