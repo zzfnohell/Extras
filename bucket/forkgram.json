@@ -1,13 +1,13 @@
 {
-    "version": "6.8.5",
+    "version": "6.9.0",
     "description": "Fork of Telegram Desktop messaging app.",
     "homepage": "http://t.me/forkgram",
     "license": {
         "identifier": "GPL-3.0-openssl-exception",
         "url": "https://github.com/Forkgram/tdesktop/blob/dev/LICENSE"
     },
-    "url": "https://github.com/Forkgram/tdesktop/releases/download/v6.8.5/Telegram.zip",
-    "hash": "d6ac6e071a7dacb6fbc947886cd60cbfc712be421bca7d190ae6315de80d3d71",
+    "url": "https://github.com/Forkgram/tdesktop/releases/download/v6.9.0/Telegram.zip",
+    "hash": "cef73b345e8e10a5ee49484f580594ca86d69d24bcdd19320a78821d6e62465a",
     "pre_install": "if (Test-Path \"$persist_dir\\log.txt\") { Copy-Item \"$persist_dir\\log.txt\" \"$dir\\\" }",
     "pre_uninstall": "if (Test-Path \"$dir\\log.txt\") { Copy-Item \"$dir\\log.txt\" \"$persist_dir\\\" }",
     "bin": [
