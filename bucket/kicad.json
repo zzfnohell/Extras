@@ -1,12 +1,12 @@
 {
-    "version": "10.0.3",
+    "version": "10.0.4",
     "description": "Electronics Design Automation Suite",
     "homepage": "https://www.kicad.org",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.3/kicad-10.0.3-x86_64.exe#/dl.7z",
-            "hash": "c2751315f4b8e19239a88f2055f6dbcceabec56f5a3fab726269cebd04333971"
+            "url": "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.4/kicad-10.0.4-x86_64.exe#/dl.7z",
+            "hash": "0542f21d8f33d4bc530768c97bfe1ecd495a88050b361d1864c12b1e7c9430cd"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
