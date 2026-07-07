@@ -1,5 +1,5 @@
 {
-    "version": "26.2",
+    "version": "26.2.1",
     "description": "A universal database tool for developers, DBAs and analysts.",
     "homepage": "https://www.dbvis.com/",
     "license": {
@@ -12,8 +12,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dbvis.com/product_download/dbvis-26.2/media/dbvis_windows-x64_26_2.zip",
-            "hash": "e824de9a2206f91af28cccfe6aa9f5501590c362b2ecedb73e91c9c640825fe8"
+            "url": "https://dbvis.com/product_download/dbvis-26.2.1/media/dbvis_windows-x64_26_2_1.zip",
+            "hash": "aa0466804e04f36e2c5e24db5b88046737513d0e35f2012b6d8df007b1e6d393"
         }
     },
     "extract_dir": "DbVisualizer",
