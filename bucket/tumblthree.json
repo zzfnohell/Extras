@@ -1,5 +1,5 @@
 {
-    "version": "2.20.1",
+    "version": "2.21.0",
     "description": "A Tumblr Backup Application",
     "homepage": "https://github.com/TumblThreeApp/TumblThree",
     "license": "MIT",
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/TumblThreeApp/TumblThree/releases/download/v2.20.1/TumblThree-v2.20.1-x64-Application.zip",
-            "hash": "a1e43377014351c74afd6453d26373e40b9b27c082467b7ce5e2147c694d9d25"
+            "url": "https://github.com/TumblThreeApp/TumblThree/releases/download/v2.21.0/TumblThree-v2.21.0-x64-Application.zip",
+            "hash": "9dae9a881c7186fc2fd249bbaf4b4a985327a646637beb92de2812d5eabed3c0"
         },
         "32bit": {
-            "url": "https://github.com/TumblThreeApp/TumblThree/releases/download/v2.20.1/TumblThree-v2.20.1-x86-Application.zip",
-            "hash": "e12c9148b8cc3241609ebdf61754447ffcbf06877f1ae5d54e0197b31533dfe7"
+            "url": "https://github.com/TumblThreeApp/TumblThree/releases/download/v2.21.0/TumblThree-v2.21.0-x86-Application.zip",
+            "hash": "690b3220f8004464a9f0fb3cb49cba7b913dafb1ab8bb49f4344f4a5bfbf96c5"
         }
     },
     "pre_install": [
