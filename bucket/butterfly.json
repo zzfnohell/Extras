@@ -9,7 +9,6 @@
             "hash": "30f64c70ef197c41d85b699246d07368f3251d51153e4a73d3a2f9220192c9ea"
         }
     },
-    "extract_dir": "windows-build",
     "bin": "butterfly.exe",
     "shortcuts": [
         [

@@ -33,7 +33,9 @@
     ],
     "persist": "db",
     "checkver": {
-        "github": "https://github.com/hydrusnetwork/hydrus"
+        "github": "https://api.github.com/repos/hydrusnetwork/hydrus/releases",
+        "jsonpath": "$[*].assets[*].browser_download_url",
+        "regex": "download/v(?<version>[\\d.]+[a-z]{0,1})/Hydrus\\.Network\\.\\k<version>\\.-\\.Windows\\.-\\.Extract\\.only\\.zip"
     },
     "autoupdate": {
         "architecture": {

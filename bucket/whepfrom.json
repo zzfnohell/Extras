@@ -1,8 +1,11 @@
 {
     "version": "0.9.0",
-    "description": "From shep to rtp",
-    "homepage": "https://github.com/binbat/live777/",
-    "license": "MPL-2.0",
+    "description": "WHEP to RTP/RTSP tool.",
+    "homepage": "https://live777.pages.dev",
+    "license": {
+        "identifier": "MPL-2.0",
+        "url": "https://github.com/binbat/live777/blob/HEAD/LICENSE"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/binbat/live777/releases/download/v0.9.0/whepfrom-v0.9.0-x86_64-pc-windows-msvc.exe#/whepfrom.exe",
@@ -11,9 +14,13 @@
         "32bit": {
             "url": "https://github.com/binbat/live777/releases/download/v0.9.0/whepfrom-v0.9.0-i686-pc-windows-msvc.exe#/whepfrom.exe",
             "hash": "7b1f930b28425e998c284fe0832d63e0d1cffc6ef7924776287c16d8eabb614c"
+        },
+        "arm64": {
+            "url": "https://github.com/binbat/live777/releases/download/v0.9.0/whepfrom-v0.9.0-aarch64-pc-windows-msvc.exe#/whepfrom.exe",
+            "hash": "98dacab5708b05f59d5a1951e19429db3760aa775437e1b989c917bf9c55a9e0"
         }
     },
-    "bin": "live777.exe",
+    "bin": "whepfrom.exe",
     "checkver": {
         "github": "https://github.com/binbat/live777"
     },
@@ -24,6 +31,9 @@
             },
             "32bit": {
                 "url": "https://github.com/binbat/live777/releases/download/v$version/whepfrom-v$version-i686-pc-windows-msvc.exe#/whepfrom.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/binbat/live777/releases/download/v$version/whepfrom-v$version-aarch64-pc-windows-msvc.exe#/whepfrom.exe"
             }
         }
     }

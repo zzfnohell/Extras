@@ -6,13 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/fougue/mayo/releases/download/v0.10.0/Mayo-0.10.0-win64-binaries.zip",
-            "hash": "4cd2df02e0d5b113873515b0e222e9944629d432fe731537204a119c3b6d74b2"
+            "hash": "4cd2df02e0d5b113873515b0e222e9944629d432fe731537204a119c3b6d74b2",
+            "extract_dir": "Mayo-0.10.0-win64-binaries"
         }
     },
-    "bin": "Mayo-0.10.0-win64-binaries/mayo.exe",
+    "bin": "mayo.exe",
     "shortcuts": [
         [
-            "Mayo-0.10.0-win64-binaries/mayo.exe",
+            "mayo.exe",
             "Mayo"
         ]
     ],
@@ -20,15 +21,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/fougue/mayo/releases/download/v$version/Mayo-$version-win64-binaries.zip"
+                "url": "https://github.com/fougue/mayo/releases/download/v$version/Mayo-$version-win64-binaries.zip",
+                "extract_dir": "Mayo-$version-win64-binaries"
             }
         },
-        "bin": "Mayo-$version-win64-binaries/mayo.exe",
-        "shortcuts": [
-            [
-                "Mayo-$version-win64-binaries/mayo.exe",
-                "Mayo"
-            ]
-        ]
+        "hash": {
+            "url": "$url.sha256"
+        }
     }
 }

@@ -1,20 +1,20 @@
 {
-    "version": "2025.10.03",
+    "version": "2026.07.30",
     "description": "Text-based desktop environment",
     "homepage": "https://github.com/directvt/vtm",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/directvt/vtm/releases/download/v2025.10.03/vtm_windows_x86_64.zip",
-            "hash": "9d324f066fdc80abba0598bce067b03ed3b6ea7c530a3578c8979017c2b87d12"
+            "url": "https://github.com/directvt/vtm/releases/download/v2026.07.30/vtm_windows_x86_64.7z",
+            "hash": "392aa2b0fe3783d0a969459dfe29d50fc83662238efab51b4fba5e209abce1cf"
         },
         "32bit": {
-            "url": "https://github.com/directvt/vtm/releases/download/v2025.10.03/vtm_windows_x86.zip",
-            "hash": "26033bcc32db545289ed187d4a33a15e0be13e80b332881c2a2c87ff0f9ffab9"
+            "url": "https://github.com/directvt/vtm/releases/download/v2026.07.30/vtm_windows_x86.7z",
+            "hash": "725b2495f255c09c0aa70e96cd31ede26c48c2b65e2bab7dca863c4982ff9c81"
         },
         "arm64": {
-            "url": "https://github.com/directvt/vtm/releases/download/v2025.10.03/vtm_windows_arm64.zip",
-            "hash": "7461f2650408aa48d7c2e377369ec7f2e1b35403760dab5e6ee9403abf256520"
+            "url": "https://github.com/directvt/vtm/releases/download/v2026.07.30/vtm_windows_arm64.7z",
+            "hash": "a01ba1a1a84476b8475aef2c5b1813b8e818254f48ab2422379765428e0eac13"
         }
     },
     "bin": "vtm.exe",
@@ -22,13 +22,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_x86_64.zip"
+                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_x86_64.7z"
             },
             "32bit": {
-                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_x86.zip"
+                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_x86.7z"
             },
             "arm64": {
-                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_arm64.zip"
+                "url": "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_arm64.7z"
             }
         }
     }

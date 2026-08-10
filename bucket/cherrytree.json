@@ -9,10 +9,10 @@
             "hash": "2be61558d066ef60a53b9fc461bcc91aced01b54d476fa47229ab5700d0ffb5b",
             "extract_dir": "cherrytree_1.7.1.0_win64_portable",
             "pre_install": "if(!(Test-Path \"$dir\\config.cfg\")) { New-Item \"$dir\\config.cfg\" -ItemType File | Out-Null}",
-            "bin": "mingw64\\bin\\cherrytree.exe",
+            "bin": "ucrt64\\bin\\cherrytree.exe",
             "shortcuts": [
                 [
-                    "mingw64\\bin\\cherrytree.exe",
+                    "ucrt64\\bin\\cherrytree.exe",
                     "Cherrytree"
                 ]
             ]

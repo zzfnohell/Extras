@@ -16,11 +16,15 @@
             "ShaderGlass"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "https://api.github.com/repos/mausimus/ShaderGlass/releases/latest",
+        "jsonpath": "$.assets[*].browser_download_url",
+        "regex": "/download/(?<tag>v?[\\d.]+)/ShaderGlass-(?<version>[\\d.]+)-win-x64\\.zip"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mausimus/ShaderGlass/releases/download/v$version/ShaderGlass-$version-win-x64.zip"
+                "url": "https://github.com/mausimus/ShaderGlass/releases/download/$matchTag/ShaderGlass-$version-win-x64.zip"
             }
         }
     }

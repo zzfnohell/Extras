@@ -23,10 +23,7 @@
             "Ngspice"
         ]
     ],
-    "checkver": {
-        "url": "http://ngspice.sourceforge.net/download.html",
-        "regex": "ngspice-(\\d+)</strong></a>"
-    },
+    "checkver": "sourceforge",
     "autoupdate": {
         "architecture": {
             "64bit": {

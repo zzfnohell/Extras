@@ -3,8 +3,12 @@
     "description": "An extensible editor for OpenStreetMap (OSM)",
     "homepage": "https://josm.openstreetmap.de",
     "license": "GPL-2.0-or-later",
+    "notes": [
+        "JOSM requires JRE 11 or later to launch. For more information, see:",
+        "https://josm.openstreetmap.de/browser/trunk/README"
+    ],
     "suggest": {
-        "JRE": "java/temurin8-jre"
+        "JRE": "java/temurin-jre"
     },
     "url": [
         "https://josm.openstreetmap.de/download/josm-snapshot-19555.jar#/josm.jar",
@@ -25,8 +29,8 @@
     ],
     "persist": "data",
     "checkver": {
-        "url": "https://josm.openstreetmap.de/wiki/Changelog",
-        "regex": "[\\d.-]+: Stable release\\s+(\\d+)\\s+\\("
+        "url": "https://josm.openstreetmap.de/wiki/StartupPage",
+        "regex": "Stable version:\\s+(\\d+)\\s+\\<"
     },
     "autoupdate": {
         "url": "https://josm.openstreetmap.de/download/josm-snapshot-$version.jar#/josm.jar"

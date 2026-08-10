@@ -14,9 +14,13 @@
     "hash": "4bf484b32b6432d06c60b7d7bda8c5fc93197177e48af3a5052f71a86ed53fcf",
     "extract_dir": "kdoc-formatter-1.6.9",
     "bin": "bin\\kdoc-formatter.bat",
-    "checkver": "github",
+    "checkver": {
+        "github": "https://api.github.com/repos/tnorbye/kdoc-formatter/releases/latest",
+        "jsonpath": "$.assets[*].browser_download_url",
+        "regex": "download/v(?<tag>[\\d.]+)/kdoc-formatter-([\\d.]+)\\.zip"
+    },
     "autoupdate": {
-        "url": "https://github.com/tnorbye/kdoc-formatter/releases/download/v$version/kdoc-formatter-$version.zip",
+        "url": "https://github.com/tnorbye/kdoc-formatter/releases/download/v$matchTag/kdoc-formatter-$version.zip",
         "extract_dir": "kdoc-formatter-$version"
     }
 }

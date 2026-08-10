@@ -3,17 +3,18 @@
     "description": "Cross-platform IPTV player",
     "homepage": "https://github.com/4gray/iptvnator",
     "license": "MIT",
-    "url": "https://github.com/4gray/iptvnator/releases/download/v0.22.0/iptvnator-Setup-0.22.0.exe#/dl.7z",
-    "hash": "sha512:9ee8351f374c467b151aacfff5ece834a1118ceb8363441c47cb0ff7fb7b9a2371c78568c5a9eba1be8bb3a66b7a2d663388411b254e3a1f7b8950f70f7b4319",
     "architecture": {
         "64bit": {
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\""
-        },
-        "32bit": {
-            "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-32.7z\" \"$dir\""
+            "url": "https://github.com/4gray/iptvnator/releases/download/v0.22.0/iptvnator-0.22.0-windows-x64-setup.exe#/dl.7z",
+            "hash": "faf88943cf51e0775c9088fcfc65c8bad68a8bba1bae2c0ea4733761ef14e67d",
+            "installer": {
+                "script": [
+                    "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath $dir",
+                    "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse -ErrorAction Ignore"
+                ]
+            }
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Unins*\" -Force -Recurse",
     "shortcuts": [
         [
             "iptvnator.exe",
@@ -22,10 +23,10 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/4gray/iptvnator/releases/download/v$version/iptvnator-Setup-$version.exe#/dl.7z",
-        "hash": {
-            "url": "$baseurl/latest.yml",
-            "regex": "sha512:\\s+$base64"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/4gray/iptvnator/releases/download/v$version/iptvnator-$version-windows-x64-setup.exe#/dl.7z"
+            }
         }
     }
 }

@@ -9,7 +9,7 @@
             "hash": "5b19a1e734505a64d077a994bb9f8bcd52569308841fe4372f75c55df47d0340"
         }
     },
-    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Force -Recurse",
+    "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninst.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
     "bin": "qbittorrent.exe",
     "shortcuts": [
         [
@@ -20,7 +20,8 @@
     "persist": "profile",
     "checkver": {
         "github": "https://github.com/c0re100/qBittorrent-Enhanced-Edition",
-        "regex": "releases/tag/release-([\\d.]+)"
+        "jsonpath": "$.tag_name",
+        "regex": "release-([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {

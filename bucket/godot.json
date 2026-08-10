@@ -1,4 +1,5 @@
 {
+    "##": "Using homepage for checkver to avoid out-of-order versioning on GitHub (e.g., 4.6.1 -> 4.5.2).",
     "version": "4.7.1",
     "description": "A feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
     "homepage": "https://godotengine.org/",
@@ -11,11 +12,22 @@
         "32bit": {
             "url": "https://github.com/godotengine/godot/releases/download/4.7.1-stable/Godot_v4.7.1-stable_win32.exe.zip",
             "hash": "sha512:fbab1f3e220fe9456c96b3fa916fd5eae616af9ce2cc433e2f3189fc56e199552aa52eab99b5372d1e5be2f194617eea79e4f6e6fd35edb29114f22ae28864f7"
+        },
+        "arm64": {
+            "url": "https://github.com/godotengine/godot/releases/download/4.7.1-stable/Godot_v4.7.1-stable_windows_arm64.exe.zip",
+            "hash": "sha512:607ba2ad6dc22081fb6f508929bbbff4b6c8f07257dacc804d81e938ad69ea01f39551815848b20c550a78f9a7cc156ef68c8b252b1f96eeb6e0e3f946799bfa"
         }
     },
     "pre_install": [
         "Get-Item \"$dir\\Godot_*_console.exe\" | Rename-Item -NewName 'godot.console.exe'",
-        "Get-Item \"$dir\\Godot_*.exe\" | Rename-Item -NewName 'godot.exe'"
+        "Get-Item \"$dir\\Godot_*.exe\" | Rename-Item -NewName 'godot.exe'",
+        "if (!(Test-Path \"$persist_dir\\editor_data\") -and (Test-Path \"$env:AppData\\Godot\")) {",
+        "    info '[Portable Mode]: Copying user data from \"$env:AppData\\Godot\"'",
+        "    warn '\"godot\" and \"godot-mono\" now use separate persistent settings and project stores'",
+        "    ensure \"$persist_dir\\editor_data\" | Out-Null",
+        "    Copy-Item -Path \"$env:AppData\\Godot\\*\" -Destination \"$persist_dir\\editor_data\" -Recurse -Force",
+        "}",
+        "New-Item -Force -Path \"$dir\" -Name '._sc_' -ItemType File | Out-Null"
     ],
     "bin": [
         [
@@ -29,9 +41,10 @@
             "Godot Engine"
         ]
     ],
+    "persist": "editor_data",
     "checkver": {
-        "url": "https://github.com/godotengine/godot/releases/latest",
-        "regex": "(?<version>[\\d\\w.]+)-stable"
+        "url": "https://godotengine.org",
+        "regex": "Download Latest.*?>([\\d.]+)<"
     },
     "autoupdate": {
         "architecture": {
@@ -40,6 +53,9 @@
             },
             "32bit": {
                 "url": "https://github.com/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_win32.exe.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/godotengine/godot/releases/download/$version-stable/Godot_v$version-stable_windows_arm64.exe.zip"
             }
         },
         "hash": {

@@ -1,0 +1,41 @@
+{
+    "version": "4.0.2",
+    "description": "A SQLite database manager. (Formerly known as SQLiteStudio.)",
+    "homepage": "https://letos.org/",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/pawelsalawa/letos/releases/download/4.0.2/letos-4.0.2-windows-x64.zip",
+            "hash": "23a37793bfe431587648ce83e5155ed634376185f5b8723494e378254cb7f67d"
+        },
+        "arm64": {
+            "url": "https://github.com/pawelsalawa/letos/releases/download/4.0.2/letos-4.0.2-windows-arm64.zip",
+            "hash": "1f5b0cac1670e597c5b8907764b010feb64130e9d4ce28803c4866afc4bfda10"
+        }
+    },
+    "extract_dir": "Letos",
+    "bin": "letos.exe",
+    "shortcuts": [
+        [
+            "letos.exe",
+            "letos"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/pawelsalawa/letos"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/pawelsalawa/letos/releases/download/$version/letos-$version-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/pawelsalawa/letos/releases/download/$version/letos-$version-windows-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/pawelsalawa/letos/releases/tag/$version",
+            "find": "$sha256.*?$basename"
+        }
+    }
+}

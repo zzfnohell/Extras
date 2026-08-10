@@ -35,10 +35,7 @@
         "Queuelist.json",
         "Settings.json"
     ],
-    "checkver": {
-        "github": "https://github.com/TumblThreeApp/TumblThree",
-        "regex": "/TumblThree-v([\\d.]+)-x\\d+"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

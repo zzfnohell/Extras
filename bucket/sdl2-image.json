@@ -115,8 +115,9 @@
         ]
     },
     "checkver": {
-        "url": "https://github.com/libsdl-org/SDL_image/releases",
-        "regex": "release-([\\d.]+)"
+        "github": "https://api.github.com/repos/libsdl-org/SDL_image/releases",
+        "jsonpath": "$[*].tag_name",
+        "regex": "release-(2.[\\d.]+)"
     },
     "autoupdate": {
         "url": [

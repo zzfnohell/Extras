@@ -9,7 +9,7 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
     "architecture": {
         "64bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_2.6.3_x64_Unicode.zip",
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
             "hash": "4fe87c70d3528f967dd4a6bd2c48684df9bd38be08590c09c5bbc150b2e7d9d0",
             "bin": [
                 "Imagine64.exe",
@@ -26,12 +26,29 @@
             ]
         },
         "32bit": {
-            "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_2.6.3_Unicode.zip",
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
             "hash": "5717215e67d029c6c6192f668e6f2a3419fa2838b1d030c7a9b522958004abe4",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
                     "Imagine.exe",
+                    "Imagine"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=arm64&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
+            "hash": "8f9f08e7f638109fae96980d4733507e1eab0461c2d61f004f6ac18636f6bd92",
+            "bin": [
+                "ImagineA64.exe",
+                [
+                    "ImagineA64.exe",
+                    "Imagine"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "ImagineA64.exe",
                     "Imagine"
                 ]
             ]
@@ -46,10 +63,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/x64/Imagine_$version_x64_Unicode.zip"
+                "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=$version#/dl.zip"
             },
             "32bit": {
-                "url": "https://raw.githubusercontent.com/nyam1003/imagine/main/Imagine_$version_Unicode.zip"
+                "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=$version#/dl.zip"
+            },
+            "arm64": {
+                "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=arm64&unicode=1&full=0&setup=0&version=$version#/dl.zip"
             }
         }
     }

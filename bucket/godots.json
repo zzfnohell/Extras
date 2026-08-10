@@ -18,7 +18,8 @@
     ],
     "checkver": {
         "github": "https://github.com/MakovWait/godots",
-        "regex": "/releases/tag/(?:v|V)?([\\d.]+[\\d]+)"
+        "jsonpath": "$.tag_name",
+        "regex": "(?:v|V)?([\\d.]+[\\d]+)\\.stable"
     },
     "autoupdate": {
         "architecture": {

@@ -12,7 +12,7 @@
             "hash": "e303cced835e1a8a1041580eeaea3b7b3658c348d77ea53a108a95926625c41a"
         }
     },
-    "extract_dir": "Cryptomator",
+    "extract_dir": "PFiles64/Cryptomator",
     "post_install": [
         "    # Change appdata settings folder",
         "(Get-Content \"$dir\\app\\Cryptomator.cfg\" -Encoding ASCII).replace('~/AppData/Roaming/Cryptomator', './data') | Set-Content \"$dir\\app\\Cryptomator.cfg\" -Encoding ASCII"

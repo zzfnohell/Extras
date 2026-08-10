@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-w64-se-0.14.4-binary.zip",
-            "hash": "d0c8a8a17728c84405f0db61e69946ccf9ae7df63828583539c9f993bf962a23",
+            "hash": "sha1:9c7d526282c3fd060dd951f4e122ae6985669f95",
             "extract_dir": "vifm-w64-se-0.14.4-binary"
         },
         "32bit": {
             "url": "https://github.com/vifm/vifm/releases/download/v0.14.4/vifm-w32-se-0.14.4-binary.zip",
-            "hash": "e1c54a90b6324729ba7c67ad4f06622b52e4e34afe407a128b4e5a4a056d24f9",
+            "hash": "sha1:254c90787548d679e23077f0126a1061e238a309",
             "extract_dir": "vifm-w32-se-0.14.4-binary"
         }
     },

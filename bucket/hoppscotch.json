@@ -15,12 +15,12 @@
     "extract_dir": "PFiles\\Hoppscotch",
     "shortcuts": [
         [
-            "Hoppscotch.exe",
+            "hoppscotch-desktop.exe",
             "Hoppscotch"
         ]
     ],
     "checkver": {
-        "url": "https://api.github.com/repositories/715960984/releases/latest",
+        "github": "https://api.github.com/repos/hoppscotch/releases/releases/latest",
         "jsonpath": "$.tag_name",
         "regex": "v(?<version>[\\d.]+-\\d+)"
     },

@@ -19,6 +19,11 @@
             "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.5.4/clamav-1.5.4.win.win32.zip",
             "hash": "3b54e5f6b0139f65bffe732fed052d38b351374cb86da395c1cf505494154f89",
             "extract_dir": "clamav-1.5.4.win.win32"
+        },
+        "arm64": {
+            "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.5.4/clamav-1.5.4.win.arm64.zip",
+            "hash": "21ec99e522435258e5fe2ef1b6345375a94748c83e4e1561c53d5b3842cf9c00",
+            "extract_dir": "clamav-1.5.4.win.arm64"
         }
     },
     "post_install": [
@@ -38,7 +43,7 @@
     ],
     "checkver": {
         "github": "https://github.com/Cisco-Talos/clamav",
-        "regex": "/releases/tag/clamav-(?:v|V)?([\\d\\.]+)"
+        "regex": "^clamav-([\\d.]+)$"
     },
     "autoupdate": {
         "architecture": {
@@ -49,6 +54,10 @@
             "32bit": {
                 "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.win32.zip",
                 "extract_dir": "clamav-$version.win.win32"
+            },
+            "arm64": {
+                "url": "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.arm64.zip",
+                "extract_dir": "clamav-$version.win.arm64"
             }
         }
     }

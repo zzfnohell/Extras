@@ -1,7 +1,7 @@
 {
     "version": "2.12.1",
-    "homepage": "https://labplot.kde.org/",
     "description": "A free, open source, and cross-platform Data Visualization and Analysis software accessible to everyone.",
+    "homepage": "https://labplot.org/",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
@@ -15,12 +15,12 @@
     ],
     "shortcuts": [
         [
-            "bin\\labplot2.exe",
+            "bin\\labplot.exe",
             "LabPlot2"
         ]
     ],
     "checkver": {
-        "url": "https://download.kde.org/stable/labplot/",
+        "url": "https://download.kde.org/stable/labplot/?C=M;O=D",
         "regex": "labplot-([\\d.]+)-(64bit|x86_64)-setup\\.exe"
     },
     "autoupdate": {
@@ -28,6 +28,9 @@
             "64bit": {
                 "url": "https://download.kde.org/stable/labplot/labplot-$version-x86_64-setup.exe#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "$url.sha256"
         }
     }
 }

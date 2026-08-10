@@ -30,6 +30,10 @@
                 "url": "https://downloads.sourceforge.net/project/kid3/kid3/$matchShort/kid3-$version-win32-x64.zip",
                 "extract_dir": "kid3-$matchShort-win32-x64"
             }
+        },
+        "hash": {
+            "url": "https://sourceforge.net/projects/kid3/files/kid3/$matchShort/",
+            "regex": "$basename\".*?sha1\":\"$sha1\""
         }
     }
 }

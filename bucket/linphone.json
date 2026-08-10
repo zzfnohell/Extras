@@ -5,7 +5,7 @@
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://www.linphone.org/releases/windows/app/Linphone-6.2.0-win64.exe#/dl.7z",
+            "url": "https://download.linphone.org/releases/windows/app/Linphone-6.2.0-win64.exe#/dl.7z",
             "hash": "494b5abb637330ec28f0fdbd906420456ad851efa0fccd491b2e53d6e38e1c16"
         }
     },
@@ -18,14 +18,17 @@
     ],
     "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Recurse",
     "checkver": {
-        "url": "https://www.linphone.org/releases/windows/RELEASE",
+        "url": "https://download.linphone.org/releases/windows/RELEASE",
         "regex": "^([\\d.]+)\\s+"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.linphone.org/releases/windows/app/Linphone-$version-win64.exe#/dl.7z"
+                "url": "https://download.linphone.org/releases/windows/app/Linphone-$version-win64.exe#/dl.7z"
             }
+        },
+        "hash": {
+            "url": "$url.sha512"
         }
     }
 }

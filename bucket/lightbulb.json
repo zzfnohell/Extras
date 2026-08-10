@@ -2,10 +2,7 @@
     "version": "2.7.1",
     "description": "Computer screen gamma adjuster based on the current time",
     "homepage": "https://github.com/Tyrrrz/LightBulb",
-    "license": "GPL-3.0-or-later",
-    "suggest": {
-        ".NET Desktop Runtime": "extras/windowsdesktop-runtime"
-    },
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Tyrrrz/LightBulb/releases/download/2.7.1/LightBulb.win-x64.zip",
@@ -34,10 +31,7 @@
         ]
     ],
     "persist": "Settings.json",
-    "checkver": {
-        "url": "https://api.github.com/repositories/78772975/tags",
-        "regex": "tags/([\\d.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

@@ -9,7 +9,7 @@
             "hash": "71bb8c7d3e9bd1713424ec546681f4cf4d50961020607e1c154ade67ea532615"
         }
     },
-    "extract_dir": "pdfarranger-1.14.0",
+    "extract_dir": "pdf arranger-1.14.0",
     "bin": "pdfarranger.exe",
     "shortcuts": [
         [
@@ -24,6 +24,6 @@
                 "url": "https://github.com/pdfarranger/pdfarranger/releases/download/$version/pdfarranger-$version-windows-portable.zip"
             }
         },
-        "extract_dir": "pdfarranger-$version"
+        "extract_dir": "pdf arranger-$version"
     }
 }
