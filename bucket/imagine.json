@@ -1,5 +1,5 @@
 {
-    "version": "2.6.3",
+    "version": "2.6.4",
     "description": "(1MB Tiny) Freeware Image & Animation Viewer for Windows",
     "homepage": "https://www.nyam.pe.kr/dev/imagine/",
     "license": {
@@ -9,8 +9,8 @@
     "pre_install": "if (!(Test-Path \"$persist_dir\\Imagine.ini\")) { New-Item \"$dir\\Imagine.ini\" | Out-Null }",
     "architecture": {
         "64bit": {
-            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
-            "hash": "07999344632cc3cd8db12afeeadb85f2e70ac9b8853d1e372d0af321579d449c",
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64&unicode=1&full=0&setup=0&version=2.6.4#/dl.zip",
+            "hash": "804aac55bc03275f7a394b01ef830f3f20462ba276af3dbe1fc832c729a21412",
             "bin": [
                 "Imagine64.exe",
                 [
@@ -26,8 +26,8 @@
             ]
         },
         "32bit": {
-            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
-            "hash": "97d4559edbeb2152d2c3f8b279d18a7dae0cfc824be55cc92d48ab568498baa5",
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x86&unicode=1&full=0&setup=0&version=2.6.4#/dl.zip",
+            "hash": "22ab62e56e2ef26a1e8c2f4f94bdaa64152f931b9fd75ba12512f7e1e77ee0e1",
             "bin": "Imagine.exe",
             "shortcuts": [
                 [
@@ -37,8 +37,8 @@
             ]
         },
         "arm64": {
-            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=arm64&unicode=1&full=0&setup=0&version=2.6.3#/dl.zip",
-            "hash": "3bc14c1a571008f1a853eeff73697e89713093f386de53af4f71289f3ee8e980",
+            "url": "https://www.nyam.pe.kr/dev/imagine/download.php?arch=arm64&unicode=1&full=0&setup=0&version=2.6.4#/dl.zip",
+            "hash": "4a9aea2954c613d5eb9055c0b2e36305f59b0584010e83ec9a2995e347fd985a",
             "bin": [
                 "ImagineA64.exe",
                 [
