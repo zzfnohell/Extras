@@ -1,12 +1,12 @@
 {
-    "version": "1.11.0",
+    "version": "1.11.1",
     "description": "A fast local diff viewer.",
     "homepage": "https://github.com/nkzw-tech/codiff",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nkzw-tech/codiff/releases/download/v1.11.0/Codiff-win32-x64-1.11.0.zip",
-            "hash": "c3ce4bd88773ba3d0b80c45bc85736726d56772b75ca5a54072b878900741cad"
+            "url": "https://github.com/nkzw-tech/codiff/releases/download/v1.11.1/Codiff-win32-x64-1.11.1.zip",
+            "hash": "668b170c71a04c0529f54de6fe8cf07f9e3c31a9bd3bafe66719eb004fd6fc9d"
         }
     },
     "bin": "codiff.exe",
