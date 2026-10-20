@@ -1,10 +1,10 @@
 {
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Lightweight Windows utility to prevent screen locking",
     "homepage": "https://github.com/CHerSun/NoSleep",
     "license": "Unlicense",
-    "url": "https://github.com/CHerSun/NoSleep/releases/download/1.5.0/NoSleep.exe",
-    "hash": "4ffdaf0cdabf16fb9d62806f9fc72fc89488252447d5903278101b1107e007f1",
+    "url": "https://github.com/CHerSun/NoSleep/releases/download/1.5.1/NoSleep.exe",
+    "hash": "f8486b7ac9f4864f002741de387fd540f6c890183cc81c7b07ec5a487e3d9d27",
     "shortcuts": [
         [
             "NoSleep.exe",
