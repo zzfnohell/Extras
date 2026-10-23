@@ -1,5 +1,5 @@
 {
-    "version": "1.1.4",
+    "version": "1.1.5",
     "description": "A modern lightweight database client built with Wails and React.",
     "homepage": "https://github.com/Syngnat/GoNavi",
     "license": "Apache-2.0",
@@ -9,12 +9,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Syngnat/GoNavi/releases/download/v1.1.4/GoNavi-1.1.4-Windows-Amd64-Portable.exe#/GoNavi.exe",
-            "hash": "bc3c3a8c3b1a3406d59581b1ee07c8e0f4bfc85cae5c4249f1c2e4a4b6f04fdf"
+            "url": "https://github.com/Syngnat/GoNavi/releases/download/v1.1.5/GoNavi-1.1.5-Windows-Amd64-Portable.exe#/GoNavi.exe",
+            "hash": "7300b823825bf2bbfb849dead5eec0bebf53c03812f544a8810a1dc382ff988d"
         },
         "arm64": {
-            "url": "https://github.com/Syngnat/GoNavi/releases/download/v1.1.4/GoNavi-1.1.4-Windows-Arm64-Portable.exe#/GoNavi.exe",
-            "hash": "76ea4d51f2a2670adcffc3a784e47e9a994f1bba230179aece9554dcd499314b"
+            "url": "https://github.com/Syngnat/GoNavi/releases/download/v1.1.5/GoNavi-1.1.5-Windows-Arm64-Portable.exe#/GoNavi.exe",
+            "hash": "d1112024fe1929eb816d63ba154aab0e3104ccbf61379d13889ac94641b3b6db"
         }
     },
     "shortcuts": [
